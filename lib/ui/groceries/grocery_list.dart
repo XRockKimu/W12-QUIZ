@@ -18,7 +18,7 @@ class _GroceryListState extends State<GroceryList> {
     // TODO-4 - Navigate to the form screen using the Navigator push [SC]
     final newGrocery = await Navigator.of(context).push<Grocery>(
       MaterialPageRoute(
-        builder: (ctx) => const NewItem(),
+        builder: (context) => const NewItem(),
       ),
     );
 
